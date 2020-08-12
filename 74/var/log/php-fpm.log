@@ -1,0 +1,48 @@
+[07-Jul-2020 11:12:26] NOTICE: fpm is running, pid 10044
+[07-Jul-2020 11:12:26] NOTICE: ready to handle connections
+[07-Jul-2020 11:12:30] NOTICE: Reloading in progress ...
+[07-Jul-2020 11:12:30] NOTICE: reloading: execvp("/www/server/php/74/sbin/php-fpm", {"/www/server/php/74/sbin/php-fpm", "--daemonize", "--fpm-config", "/www/server/php/74/etc/php-fpm.conf", "--pid", "/www/server/php/74/var/run/php-fpm.pid"})
+[07-Jul-2020 11:12:30] NOTICE: using inherited socket fd=7, "/tmp/php-cgi-74.sock"
+[07-Jul-2020 11:12:30] NOTICE: using inherited socket fd=7, "/tmp/php-cgi-74.sock"
+[07-Jul-2020 11:12:30] NOTICE: fpm is running, pid 12101
+[07-Jul-2020 11:12:30] NOTICE: ready to handle connections
+[07-Jul-2020 11:12:30] NOTICE: fpm is running, pid 12107
+[07-Jul-2020 11:12:30] NOTICE: ready to handle connections
+[07-Jul-2020 11:17:23] NOTICE: Reloading in progress ...
+[07-Jul-2020 11:17:23] NOTICE: reloading: execvp("/www/server/php/74/sbin/php-fpm", {"/www/server/php/74/sbin/php-fpm", "--daemonize", "--fpm-config", "/www/server/php/74/etc/php-fpm.conf", "--pid", "/www/server/php/74/var/run/php-fpm.pid"})
+[07-Jul-2020 11:17:23] NOTICE: using inherited socket fd=8, "/tmp/php-cgi-74.sock"
+[07-Jul-2020 11:17:23] NOTICE: using inherited socket fd=8, "/tmp/php-cgi-74.sock"
+[07-Jul-2020 11:17:23] NOTICE: fpm is running, pid 11119
+[07-Jul-2020 11:17:23] NOTICE: ready to handle connections
+[07-Jul-2020 11:32:36] NOTICE: Finishing ...
+[07-Jul-2020 11:32:36] NOTICE: exiting, bye-bye!
+[07-Jul-2020 11:32:37] NOTICE: fpm is running, pid 13583
+[07-Jul-2020 11:32:37] NOTICE: ready to handle connections
+[07-Jul-2020 11:39:59] NOTICE: Reloading in progress ...
+[07-Jul-2020 11:39:59] NOTICE: reloading: execvp("/www/server/php/74/sbin/php-fpm", {"/www/server/php/74/sbin/php-fpm", "--daemonize", "--fpm-config", "/www/server/php/74/etc/php-fpm.conf", "--pid", "/www/server/php/74/var/run/php-fpm.pid"})
+[07-Jul-2020 11:39:59] NOTICE: using inherited socket fd=7, "/tmp/php-cgi-74.sock"
+[07-Jul-2020 11:39:59] NOTICE: using inherited socket fd=7, "/tmp/php-cgi-74.sock"
+[07-Jul-2020 11:39:59] NOTICE: fpm is running, pid 21867
+[07-Jul-2020 11:39:59] NOTICE: ready to handle connections
+[07-Jul-2020 11:43:21] NOTICE: Reloading in progress ...
+[07-Jul-2020 11:43:21] NOTICE: reloading: execvp("/www/server/php/74/sbin/php-fpm", {"/www/server/php/74/sbin/php-fpm", "--daemonize", "--fpm-config", "/www/server/php/74/etc/php-fpm.conf", "--pid", "/www/server/php/74/var/run/php-fpm.pid"})
+[07-Jul-2020 11:43:21] NOTICE: using inherited socket fd=7, "/tmp/php-cgi-74.sock"
+[07-Jul-2020 11:43:21] NOTICE: using inherited socket fd=7, "/tmp/php-cgi-74.sock"
+[07-Jul-2020 11:43:21] NOTICE: fpm is running, pid 22399
+[07-Jul-2020 11:43:21] NOTICE: ready to handle connections
+[07-Jul-2020 11:43:30] NOTICE: Finishing ...
+[07-Jul-2020 11:43:30] NOTICE: exiting, bye-bye!
+[07-Jul-2020 11:43:31] NOTICE: fpm is running, pid 22429
+[07-Jul-2020 11:43:31] NOTICE: ready to handle connections
+[07-Jul-2020 11:52:01] NOTICE: Reloading in progress ...
+[07-Jul-2020 11:52:01] NOTICE: reloading: execvp("/www/server/php/74/sbin/php-fpm", {"/www/server/php/74/sbin/php-fpm", "--daemonize", "--fpm-config", "/www/server/php/74/etc/php-fpm.conf", "--pid", "/www/server/php/74/var/run/php-fpm.pid"})
+[07-Jul-2020 11:52:01] NOTICE: using inherited socket fd=7, "/tmp/php-cgi-74.sock"
+[07-Jul-2020 11:52:01] NOTICE: using inherited socket fd=7, "/tmp/php-cgi-74.sock"
+[07-Jul-2020 11:52:01] NOTICE: fpm is running, pid 23647
+[07-Jul-2020 11:52:01] NOTICE: ready to handle connections
+[07-Jul-2020 11:56:35] NOTICE: Reloading in progress ...
+[07-Jul-2020 11:56:35] NOTICE: reloading: execvp("/www/server/php/74/sbin/php-fpm", {"/www/server/php/74/sbin/php-fpm", "--daemonize", "--fpm-config", "/www/server/php/74/etc/php-fpm.conf", "--pid", "/www/server/php/74/var/run/php-fpm.pid"})
+[07-Jul-2020 11:56:35] NOTICE: using inherited socket fd=7, "/tmp/php-cgi-74.sock"
+[07-Jul-2020 11:56:35] NOTICE: using inherited socket fd=7, "/tmp/php-cgi-74.sock"
+[07-Jul-2020 11:56:35] NOTICE: fpm is running, pid 24279
+[07-Jul-2020 11:56:35] NOTICE: ready to handle connections

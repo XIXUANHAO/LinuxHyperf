@@ -1,0 +1,10 @@
+php_zip.lo: /www/server/php/74/src/ext/zip/php_zip.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/www/server/php/74/src/ext/zip $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /www/server/php/74/src/ext/zip/php_zip.c -o php_zip.lo 
+zip_stream.lo: /www/server/php/74/src/ext/zip/zip_stream.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/www/server/php/74/src/ext/zip $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /www/server/php/74/src/ext/zip/zip_stream.c -o zip_stream.lo 
+$(phplibdir)/zip.la: ./zip.la
+	$(LIBTOOL) --mode=install cp ./zip.la $(phplibdir)
+
+./zip.la: $(shared_objects_zip) $(ZIP_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS)  -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_zip) $(ZIP_SHARED_LIBADD)
+
