@@ -11,21 +11,50 @@ declare(strict_types=1);
  */
 namespace App\Controller;
 
+use Hyperf\DbConnection\Db;
 use Hyperf\HttpServer\Annotation\AutoController;
+use Hyperf\HttpServer\Contract\RequestInterface;
+use Hyperf\HttpServer\Contract\ResponseInterface;
+use Hyperf\Utils\Coroutine;
+use Swoole\Coroutine\Channel;
 
 /**
  * @AutoController(prefix="user")
  */
 class IndexController extends AbstractController
 {
-    public function index()
+    public function index(RequestInterface $request, ResponseInterface $response)
     {
-        $user = $this->request->input('user', 'Hyperf');
-        $method = $this->request->getMethod();
+        $user = $request->input('user', 'Hyperf');
+        $method = $request->getMethod();
 
-        return [
-            'method' => $method,
-            'message' => "Hellooooooooooooooeee {$user}.",
+        $data = [
+            'method'    => $method,
+            'all'       => $request -> all(),
+            'url'       => $request -> url(),
+            'query'     => $request -> query(),
+            'Cookies'   => $request -> getCookieParams(),
+
         ];
+        $int = intval(1);
+        co(function (){
+            $channel = new Channel();
+
+            go(function () use ($channel) {
+                $channel->push('data');
+            });
+
+            $int = Coroutine::id();
+            $data = new IndexController();
+            $data ->index();
+            var_dump($int);
+            var_dump($channel->pop().'aaaa');
+            Db::table('auv_miniapp_user')
+                -> where('user', $data)
+                -> first();
+//            var_dump($data);
+        });
+       return $response -> xml($data);
+
     }
 }

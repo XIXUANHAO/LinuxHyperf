@@ -24,11 +24,12 @@ class ComposerStaticInit657d7cebbd53db6000bdcf4570194199
         '46a9bb9cbc7a6a5c34938373dbe690c3' => __DIR__ . '/..' . '/hyperf/di/src/Functions.php',
         '7e9bd612cc444b3eed788ebbe46263a0' => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src/autoload.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
+        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        '9ecd5fc4cc77829926e562e2b7c63f3a' => __DIR__ . '/..' . '/hyperf/translation/src/Functions.php',
         'fdea4480df6c5882835d3b60a113de4d' => __DIR__ . '/..' . '/hyperf/config/src/Functions.php',
     );
 
@@ -95,7 +96,9 @@ class ComposerStaticInit657d7cebbd53db6000bdcf4570194199
         ),
         'H' => 
         array (
+            'Hyperf\\Validation\\' => 18,
             'Hyperf\\Utils\\' => 13,
+            'Hyperf\\Translation\\' => 19,
             'Hyperf\\Testing\\' => 15,
             'Hyperf\\Server\\' => 14,
             'Hyperf\\Redis\\' => 13,
@@ -132,6 +135,10 @@ class ComposerStaticInit657d7cebbd53db6000bdcf4570194199
         array (
             'Fig\\Http\\Message\\' => 17,
             'FastRoute\\' => 10,
+        ),
+        'E' => 
+        array (
+            'Egulias\\EmailValidator\\' => 23,
         ),
         'D' => 
         array (
@@ -319,9 +326,17 @@ class ComposerStaticInit657d7cebbd53db6000bdcf4570194199
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-mime/src',
         ),
+        'Hyperf\\Validation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hyperf/validation/src',
+        ),
         'Hyperf\\Utils\\' => 
         array (
             0 => __DIR__ . '/..' . '/hyperf/utils/src',
+        ),
+        'Hyperf\\Translation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hyperf/translation/src',
         ),
         'Hyperf\\Testing\\' => 
         array (
@@ -442,6 +457,10 @@ class ComposerStaticInit657d7cebbd53db6000bdcf4570194199
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'Egulias\\EmailValidator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/egulias/email-validator/src',
         ),
         'Dotenv\\' => 
         array (
